@@ -42,6 +42,10 @@ To run Ukor, you'll need the [.NET Core 3.1 runtime](https://dotnet.microsoft.co
 
 To develop using Ukor, you'll need Visual Studio or Visual Studio Code.
 
+## Where do I get the software?
+
+Either clone this repository and compile the code yourself, or [download the latest compiled release](https://github.com/cpwood/Ukor/releases).
+
 ## How do I configure it?
 
 ### Software Configuration
