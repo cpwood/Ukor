@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ukor", "Ukor\Ukor.csproj", "{95133A01-FDE8-48CF-B04C-28DC1179C2D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rssdp.NetCore", "Rssdp.NetCore\Rssdp.NetCore.csproj", "{AB769ED2-0A3D-41B7-A702-0E5B08DA158E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Rssdp.Shared", "Rssdp.Shared\Rssdp.Shared.shproj", "{CC2B3FBE-239E-4967-B566-1A7E4D9EAF5D}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Rssdp.Shared\Rssdp.Shared.projitems*{ab769ed2-0a3d-41b7-a702-0e5b08da158e}*SharedItemsImports = 4
+		Rssdp.Shared\Rssdp.Shared.projitems*{cc2b3fbe-239e-4967-b566-1a7e4d9eaf5d}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95133A01-FDE8-48CF-B04C-28DC1179C2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95133A01-FDE8-48CF-B04C-28DC1179C2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95133A01-FDE8-48CF-B04C-28DC1179C2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95133A01-FDE8-48CF-B04C-28DC1179C2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB769ED2-0A3D-41B7-A702-0E5B08DA158E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB769ED2-0A3D-41B7-A702-0E5B08DA158E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB769ED2-0A3D-41B7-A702-0E5B08DA158E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB769ED2-0A3D-41B7-A702-0E5B08DA158E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC90D7BE-340B-4628-A7E3-EF5206FDA8E4}
+	EndGlobalSection
+EndGlobal

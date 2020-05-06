@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Ukor": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "query/apps",
+      "applicationUrl": "http://localhost:8060",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
